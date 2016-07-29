@@ -86,12 +86,12 @@
                   <div class="col-md-9">
                      <div class="form-group">
                         <label class="sr-only" for="email">Passport Number:</label>
-                        <input type="text" class="form-control input-lg" id="email" placeholder="Passport Number">
+                        <input type="text" class="form-control input-lg" id="passportno" placeholder="Passport Number">
                      </div>
                   </div>
 
                   <div class="col-md-3">
-                     <a href="mailto:teamtourism@drivenalliance.com?subject=Register my passport" type="submit" class="btn btn-default btn-lg">Register</a>
+                     <a onclick="window.location.href = 'mailto:teamtourism@drivenalliance.com?subject=Register my passport&body=Hi%0D%0A%0D%0A I would like to register a passport with number: ' + document.getElementById('passportno').value; " type="submit" class="btn btn-default btn-lg">Register</a>
                   </div>
 
                </form>
