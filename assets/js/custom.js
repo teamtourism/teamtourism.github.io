@@ -38,21 +38,21 @@
     	});
 
         // Google Map 
-        map = new GMaps({
+        /* map = new GMaps({
             el: '#map',
             scrollwheel: false,
             lat: -12.044333,
             lng: -77.028333
-        });
+        }); */
 
-        map.addMarker({
+        /* map.addMarker({
             lat: -12.044333,
             lng: -77.028333,
             title: 'Pertness',
             infoWindow: {
                 content: '<p><strong>Pertness</strong><br/> We are here</p>'
             }
-        });
+        }); */
 
 	});
 
